@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            Goberman GitHub Repository File List
+        </title>
+    </head>
+
+    <style>
+        #profilePic {
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 1%;
+            right: 1%;
+            border-radius: 50%;
+            border: 5px solid lightyellow;
+        }
+
+        div.hoverText span {
+            width: 150px;
+            display: none;
+            position: absolute;
+            top: 5%;
+            right: 7%;
+            text-align: center;
+            padding: 5px 0;
+            background: white;
+            border: 2px groove lightyellow;
+        }
+
+        div.hoverText:hover span {
+            display: block;
+        }
+    </style>
+
+    <body style = "background-image: url('https://blog.prezi.com/wp-content/uploads/2019/03/water_ripple-1024x683.jpg'); background-size: cover;">
+
+        <div class="hoverText">
+            <img id = 'profilePic' src = 'https://i.redd.it/weniy4k5lp9b1.jpg'>
+            <span>Cayleigh Goberman</span>
+          </div>
+
+        <h2>Goberman GitHub Repository Files</h2>
+        <p>Hello! Below are the links to the files contained within my GitHub SD330 repository.</p>
+
+        <p id = 'files' style = "border: 2px solid black; border-radius: 5px; background: linear-gradient(to top, lightblue, rgb(74, 199, 240));"></p>
+
+        <script>
+            function githubFilelist(){
+				
+                var htmlString = "";
+            
+                // this creates JS object 'data' with a list of files  
+                // change "aptokash/SD330" to your github id and repository name 
+                (async () => {
+                    const response = await fetch("https://api.github.com/repos/CayleighG/SD330/contents/");
+                    const data = await response.json();
+                
+                    // loop through the list of files, set "file" to each file name
+                    for (let file of data) {
+                        
+                        fname = file.name;           
+                        fpath = "https://CayleighG.github.io/SD330/" + fname;  
+
+                        //TITLE_Game.innerHTML = "<a href='Game_"+NAMEVARIABLE+".html'>Games</a>";
+                        
+                        htmlString += "<p>" + "<a href = '" + fpath + "'</a>";
+                        htmlString += "<ul><li>" + fname + "</li></ul>";
+                    }
+                
+                    document.getElementById('files').innerHTML = htmlString;
+                    
+                })()
+            }
+            githubFilelist()
+        </script>
+
+        <footer>
+            <hr>
+            <small>&copy; C. Goberman - April 18, 2024</small>
+        </footer>
+    </body>
+</html>
