@@ -6,7 +6,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section A",
                 "handicap": "Yes",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             },
@@ -14,7 +14,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section A",
                 "handicap": "Yes",
-                "available": "No",
+                "status": "Reserved",
                 "reservedDate": "04/30/2024",
                 "timeReservedFor": "8:00 am - 5:00 pm"
             },
@@ -22,7 +22,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section B",
                 "handicap": "No",
-                "available": "No",
+                "status": "Filled",
                 "reservedDate": "04/28/2024",
                 "timeReservedFor": "12:00 pm - 3:00 pm"
             },
@@ -30,7 +30,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section B",
                 "handicap": "No",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             },
@@ -38,7 +38,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section C",
                 "handicap": "No",
-                "available": "No",
+                "status": "Reserved",
                 "reservedDate": "04/30/2024",
                 "timeReservedFor": "9:00 am - 6:00 pm"
             },
@@ -46,7 +46,7 @@
                 "type": "Faculty/Staff",
                 "location": "Section C",
                 "handicap": "Yes",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             },
@@ -54,7 +54,7 @@
                 "type": "Student",
                 "location": "Section A",
                 "handicap": "Yes",
-                "available": "No",
+                "status": "Filled",
                 "reservedDate": "04/29/2024",
                 "timeReservedFor": "10:00 am - 1:00 pm"
             },
@@ -62,7 +62,7 @@
                 "type": "Student",
                 "location": "Section B",
                 "handicap": "Yes",
-                "available": "No",
+                "status": "Reserved",
                 "reservedDate": "04/30/2024",
                 "timeReservedFor": "1:00 pm - 6:30 pm"
             },
@@ -70,7 +70,7 @@
                 "type": "Student",
                 "location": "Section C",
                 "handicap": "No",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             },
@@ -78,7 +78,7 @@
                 "type": "Student",
                 "location": "Section A",
                 "handicap": "No",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             },
@@ -86,7 +86,7 @@
                 "type": "Student",
                 "location": "Section B",
                 "handicap": "No",
-                "available": "No",
+                "status": "Filled",
                 "reservedDate": "04/28/2024",
                 "timeReservedFor": "8:00 am - 10:30 am"
             },
@@ -94,7 +94,7 @@
                 "type": "Student",
                 "location": "Section C",
                 "handicap": "No",
-                "available": "Yes",
+                "status": "Available",
                 "reservedDate": null,
                 "timeReservedFor": null
             }
