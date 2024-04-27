@@ -7,8 +7,8 @@
                 "location": "Section A",
                 "handicap": "Yes",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             },
             "space2": {
                 "type": "Faculty/Staff",
@@ -31,8 +31,8 @@
                 "location": "Section B",
                 "handicap": "No",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             },
             "space5": {
                 "type": "Faculty/Staff",
@@ -47,8 +47,8 @@
                 "location": "Section C",
                 "handicap": "Yes",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             },
             "space7": {
                 "type": "Student",
@@ -71,16 +71,16 @@
                 "location": "Section C",
                 "handicap": "No",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             },
             "space10": {
                 "type": "Student",
                 "location": "Section A",
                 "handicap": "No",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             },
             "space11": {
                 "type": "Student",
@@ -95,8 +95,8 @@
                 "location": "Section C",
                 "handicap": "No",
                 "available": "Yes",
-                "reservedDate": "N/A",
-                "timeReservedFor": "N/A"
+                "reservedDate": null,
+                "timeReservedFor": null
             }
         },
         "totalSpaces": "100",
