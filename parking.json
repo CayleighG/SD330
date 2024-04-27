@@ -1,0 +1,145 @@
+{
+    "McCann": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/mcCannMap.jpg",
+        "parkingSpaces": {
+            "space1": {
+                "type": "Faculty/Staff",
+                "location": "Section A",
+                "handicap": "Yes",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            },
+            "space2": {
+                "type": "Faculty/Staff",
+                "location": "Section A",
+                "handicap": "Yes",
+                "available": "No",
+                "reservedDate": "04/30/2024",
+                "timeReservedFor": "8:00 am - 5:00 pm"
+            },
+            "space3": {
+                "type": "Faculty/Staff",
+                "location": "Section B",
+                "handicap": "No",
+                "available": "No",
+                "reservedDate": "04/28/2024",
+                "timeReservedFor": "12:00 pm - 3:00 pm"
+            },
+            "space4": {
+                "type": "Faculty/Staff",
+                "location": "Section B",
+                "handicap": "No",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            },
+            "space5": {
+                "type": "Faculty/Staff",
+                "location": "Section C",
+                "handicap": "No",
+                "available": "No",
+                "reservedDate": "04/30/2024",
+                "timeReservedFor": "9:00 am - 6:00 pm"
+            },
+            "space6": {
+                "type": "Faculty/Staff",
+                "location": "Section C",
+                "handicap": "Yes",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            },
+            "space7": {
+                "type": "Student",
+                "location": "Section A",
+                "handicap": "Yes",
+                "available": "No",
+                "reservedDate": "04/29/2024",
+                "timeReservedFor": "10:00 am - 1:00 pm"
+            },
+            "space8": {
+                "type": "Student",
+                "location": "Section B",
+                "handicap": "Yes",
+                "available": "No",
+                "reservedDate": "04/30/2024",
+                "timeReservedFor": "1:00 pm - 6:30 pm"
+            },
+            "space9": {
+                "type": "Student",
+                "location": "Section C",
+                "handicap": "No",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            },
+            "space10": {
+                "type": "Student",
+                "location": "Section A",
+                "handicap": "No",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            },
+            "space11": {
+                "type": "Student",
+                "location": "Section B",
+                "handicap": "No",
+                "available": "No",
+                "reservedDate": "04/28/2024",
+                "timeReservedFor": "8:00 am - 10:30 am"
+            },
+            "space12": {
+                "type": "Student",
+                "location": "Section C",
+                "handicap": "No",
+                "available": "Yes",
+                "reservedDate": "N/A",
+                "timeReservedFor": "N/A"
+            }
+        },
+        "totalSpaces": "100",
+        "comments": "One of the busiest parking lots. Especially packed during sports events."
+    },
+    "Donnelly": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/donnellyMap.jpg",
+        "parkingSpaces": {
+
+        },
+        "totalSpaces": "60",
+        "comments": "The go-to parking lot when McCann overflows. Generally in a busy area."
+    },
+    "Midrise": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/midriseMap.jpg",
+        "parkingSpaces": {
+
+        },
+        "totalSpaces": "50",
+        "comments": "Close to the Student Center"
+    },
+    "Riverview": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/riverviewMap.jpg",
+        "parkingSpaces": {
+
+        },
+        "totalSpaces": "60",
+        "comments": "Closest parking lot to the river"
+    },
+    "Fontaine": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/fontaineMap.jpg",
+        "parkingSpaces": {
+
+        },
+        "totalSpaces": "30",
+        "comments": "Fills up quickly due to the current unavailability of the Dyson parking lot."
+    },
+    "Beck West": {
+        "map": "https://github.com/CayleighG/SD330/blob/main/beckWestMap.jpg",
+        "parkingSpaces": {
+
+        },
+        "totalSpaces": "40",
+        "comments": "Close to Steel Plant and Allied Health"
+    }
+} 
