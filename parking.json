@@ -1,6 +1,6 @@
 {
     "McCann": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/mcCannMap.jpg",
+        "map": "mcCannMap.jpg",
         "parkingSpaces": {
             "space1": {
                 "type": "Faculty/Staff",
@@ -103,7 +103,7 @@
         "comments": "One of the busiest parking lots. Especially packed during sports events."
     },
     "Donnelly": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/donnellyMap.jpg",
+        "map": "donnellyMap.jpg",
         "parkingSpaces": {
 
         },
@@ -111,7 +111,7 @@
         "comments": "The go-to parking lot when McCann overflows. Generally in a busy area."
     },
     "Midrise": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/midriseMap.jpg",
+        "map": "midriseMap.jpg",
         "parkingSpaces": {
 
         },
@@ -119,7 +119,7 @@
         "comments": "Close to the Student Center"
     },
     "Riverview": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/riverviewMap.jpg",
+        "map": "riverviewMap.jpg",
         "parkingSpaces": {
 
         },
@@ -127,7 +127,7 @@
         "comments": "Closest parking lot to the river"
     },
     "Fontaine": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/fontaineMap.jpg",
+        "map": "fontaineMap.jpg",
         "parkingSpaces": {
 
         },
@@ -135,7 +135,7 @@
         "comments": "Fills up quickly due to the current unavailability of the Dyson parking lot."
     },
     "Beck West": {
-        "map": "https://github.com/CayleighG/SD330/blob/main/beckWestMap.jpg",
+        "map": "beckWestMap.jpg",
         "parkingSpaces": {
 
         },
