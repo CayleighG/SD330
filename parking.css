@@ -133,7 +133,8 @@ body {
 }
 
 .returnToHome:hover {
-    background-color: lightgrey;
+    background-color: maroon;
+    color: white;
 }
 
 .collapse {
@@ -162,6 +163,7 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     border: 2px solid black;
+
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top: 0;
@@ -185,9 +187,77 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 5%;
+    margin-bottom: 10px;
 }
 
 .goToAvailableButton:hover {
     background-color: maroon;
     color: white;
+}
+
+.studentColumn {
+    float: right; 
+    width: 30%; 
+    background-color: lightgrey; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.facultyColumn {
+    float: right; 
+    width: 30%; 
+    margin-right: 30px; 
+    background-color: lightgrey; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.totalSpaces {
+    float: left; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-left: 8%;
+    padding: 20px;
+}
+
+.freeSpaces {
+    float: right; 
+    width: 50%; 
+    background-color: lightgrey; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-right: 8%;
+}
+
+.reserveButton {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.reserveButton:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.individualSpace {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    /* margin: top right bottom left; */
+    margin: auto 5px auto 5px;
 }

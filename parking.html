@@ -83,22 +83,24 @@
     
             <div id = 'parkingInfoPage' style = "display: none;">
                 <button class = 'returnToHome' onClick = "return switchPage('homePage', 'parkingInfoPage', 'availableSpacesPage')"><b>Return to Home Page</b></button>
-                <h1 style = 'text-align: center; position: relative; bottom: 30px;'><u>Parking Information Page</u></h1>
+                <h1 style = 'text-align: center; position: relative; bottom: 30px;'><u>Parking Information</u></h1>
                 <h3 style = 'text-align: center; position: relative; bottom: 30px;'>Browse the available parking lots on campus in order to find the perfect space for you!</h3>
 
                 <button type="button" class="collapse"><b>McCann</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'mcCannMap.jpg'>
                     
-                    <div style = 'float: right; width: 30%; background-color: lightgrey; border: 2px solid black; border-radius: 5px; padding: 10px; margin-top: 10px; margin-bottom: 10px;'>
+                    <div class = 'studentColumn'>
                         <p><b>Student and Visitor Parking</b></p>
                         <p id = 'studentParking'></p>
                     </div>
 
-                    <div style = 'float: right; width: 30%; margin-right: 30px; background-color: lightgrey; border: 2px solid black; border-radius: 5px; padding: 10px; margin-top: 10px; margin-bottom: 10px;'>
+                    <div class = 'facultyColumn'>
                         <p><b>Faculty Parking</b></p>
                         <p id = 'facultyParking'></p>
                     </div>
+
+                    <p id = 'parkingSpaces1' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -108,7 +110,17 @@
                 <button type="button" class="collapse"><b>Donnelly</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'donnellyMap.jpg'>
-                    <p>Photo on left, info on parking spaces on right</p>
+                    <div class = 'studentColumn' style = 'min-height: 460px'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <div class = 'facultyColumn' style = 'min-height: 460px'>
+                        <p><b>Faculty Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <p id = 'parkingSpaces2' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -118,7 +130,17 @@
                 <button type="button" class="collapse"><b>Midrise</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'midriseMap.jpg'>
-                    <p>Photo on left, info on parking spaces on right</p>
+                    <div class = 'studentColumn' style = 'min-height: 500px'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <div class = 'facultyColumn' style = 'min-height: 500px'>
+                        <p><b>Faculty Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <p id = 'parkingSpaces3' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -128,7 +150,17 @@
                 <button type="button" class="collapse"><b>Riverview</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'riverviewMap.jpg'>
-                    <p>Photo on left, info on parking spaces on right</p>
+                    <div class = 'studentColumn' style = 'min-height: 400px'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <div class = 'facultyColumn' style = 'min-height: 400px'>
+                        <p><b>Faculty Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <p id = 'parkingSpaces4' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -138,7 +170,17 @@
                 <button type="button" class="collapse"><b>Fontaine</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'fontaineMap.jpg'>
-                    <p>Photo on left, info on parking spaces on right</p>
+                    <div class = 'studentColumn' style = 'min-height: 400px'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <div class = 'facultyColumn' style = 'min-height: 400px'>
+                        <p><b>Faculty Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <p id = 'parkingSpaces5' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -148,7 +190,17 @@
                 <button type="button" class="collapse"><b>Beck West</b></button>
                 <div class="collapseContent">
                     <img class = 'collapsePhotos' src = 'beckWestMap.jpg'>
-                    <p>Photo on left, info on parking spaces on right</p>
+                    <div class = 'studentColumn' style = 'min-height: 750px'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <div class = 'facultyColumn' style = 'min-height: 750px'>
+                        <p><b>Faculty Parking</b></p>
+                        <p>Something went wrong. Please try again later.</p>
+                    </div>
+
+                    <p id = 'parkingSpaces6' class = 'totalSpaces'></p>
 
                     <button class = 'goToAvailableButton'onClick = "return switchPage('availableSpacesPage', 'homePage', 'parkingInfoPage')" >Want to claim a parking space?<br>Reserve one now!</button>
                 </div>
@@ -156,7 +208,171 @@
     
             <div id = 'availableSpacesPage' style = "display: none;">
                 <button class = 'returnToHome' onClick = "return switchPage('homePage', 'availableSpacesPage', 'parkingInfoPage')"><b>Return to Home Page</b></button>
-                <h1>This is the Available Spaces Page</h1>
+                <h1 style = 'text-align: center; position: relative; bottom: 30px;'><u>Available Spaces</u></h1>
+                <h3 style = 'text-align: center; position: relative; bottom: 30px;'>Reserve a space in a parking lot of your choice!</h3>
+
+                <button type="button" class = "collapse"><b>McCann</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'mcCannMap.jpg'>
+                    
+                    <div class = 'freeSpaces'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeFacultyParking1'></p>
+                            <button class = 'reserveButton' onClick = 'createAccountAlert()'>Reserve this Space</button>
+                        </div>
+                        <br>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeFacultyParking2'></p>
+                            <button class = 'reserveButton' onClick = 'createAccountAlert()'>Reserve this Space</button>
+                        </div>
+                        <br>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeFacultyParking3'></p>
+                            <button class = 'reserveButton' onClick = 'createAccountAlert()'>Reserve this Space</button>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeStudentParking1'></p>
+                            <button class = 'reserveButton'>Reserve this Space</button>
+                        </div>
+                        <br>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeStudentParking2'></p>
+                            <button class = 'reserveButton'>Reserve this Space</button>
+                        </div>
+                        <br>
+                        <div class = 'individualSpace'>
+                            <p id = 'freeStudentParking3'></p>
+                            <button class = 'reserveButton'>Reserve this Space</button>
+                        </div>
+                    </div>
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
+
+                <br>
+                
+                <button type="button" class = "collapse"><b>Donnelly</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'donnellyMap.jpg'>
+                    
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
+
+                <br>
+                
+                <button type="button" class = "collapse"><b>Midrise</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'midriseMap.jpg'>
+                    
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
+
+                <br>
+                
+                <button type="button" class = "collapse"><b>Riverview</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'riverviewMap.jpg'>
+                    
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
+
+                <br>
+                
+                <button type="button" class = "collapse"><b>Fontaine</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'fontaineMap.jpg'>
+                    
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces' style = 'min-height: 200px;'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
+
+                <br>
+                
+                <button type="button" class = "collapse"><b>Beck West</b></button>
+                <div class="collapseContent">
+                    <img class = 'collapsePhotos' src = 'beckWestMap.jpg'>
+                    
+                    <div class = 'freeSpaces' style = 'min-height: 300px;'>
+                        <p><b>Faculty Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <div class = 'freeSpaces' style = 'min-height: 300px;'>
+                        <p><b>Student and Visitor Parking</b></p>
+                        <div class = 'individualSpace'>
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+
+                    <button class = 'goToAvailableButton'onClick = "return switchPage('parkingInfoPage', 'availableSpacesPage', 'homePage')" >
+                        Want more info on specific parking lots?<br>Visit our parking info page!</button>
+                </div>
             </div>
         </div>
 
@@ -183,7 +399,7 @@
             }
 
             function ticketsAlert() {
-                alert('You currently do not have an account. Create one now to keep track of your tickets!')
+                alert('You currently do not have an account. Create one now to keep track of your tickets!');
             }
 
             //Collapsible Sections
@@ -203,9 +419,13 @@
             }
             //End of Collapsible Sections
 
+            function createAccountAlert() {
+                alert('You are not currently signed in to an account. Click on the "Login" button to either create a new account or log in to your existing one.');
+            }
+
             //JSON
             (async () => {
-                //Faculty
+                //Faculty (Parking Info)
                 let htmlString = "";
 
                 // We're grabbing data from the below file
@@ -214,42 +434,80 @@
 
                 for (let i = 1; i < 7; i++) {
                     htmlString += "<p>Space " + i;
-                    htmlString += "<ul><li>Location: " + data['McCann']['parkingSpaces']['space' + i]['location'] + "</li>";
-                    htmlString += "<li>Handicap Parking: " + data['McCann']['parkingSpaces']['space' + i]['handicap'] + "</li>";
-                    htmlString += "<li>Status: " + data['McCann']['parkingSpaces']['space' + i]['status'] + "</li>";
-                    if (data['McCann']['parkingSpaces']['space' + i]['reservedDate'] == null) {
+                    htmlString += "<ul><li>Location: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['location'] + "</li>";
+                    htmlString += "<li>Handicap Parking: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['handicap'] + "</li>";
+                    htmlString += "<li>Status: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['status'] + "</li>";
+                    if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['reservedDate'] == null) {
                         htmlString += "<li>Date Reserved: N/A</li>";
                     } else {
-                        htmlString += "<li>Date Reserved: " + data['McCann']['parkingSpaces']['space' + i]['reservedDate'] + "</li>";
+                        htmlString += "<li>Date Reserved: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['reservedDate'] + "</li>";
                     }
-                    if (data['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] == null) {
+                    if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] == null) {
                         htmlString += "<li>Time Reserved: N/A</li></ul>";
                     } else {
-                        htmlString += "<li>Time Reserved: " + data['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] + "</li></ul>";
+                        htmlString += "<li>Time Reserved: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] + "</li></ul>";
                     }
                 }
                 document.getElementById('facultyParking').innerHTML += htmlString;
 
-                //Students
+                //Students (Parking Info)
                 htmlString = "";
 
                 for (let i = 7; i < 13; i++) {
                     htmlString += "<p>Space " + i;
-                    htmlString += "<ul><li>Location: " + data['McCann']['parkingSpaces']['space' + i]['location'] + "</li>";
-                    htmlString += "<li>Handicap Parking: " + data['McCann']['parkingSpaces']['space' + i]['handicap'] + "</li>";
-                    htmlString += "<li>Status: " + data['McCann']['parkingSpaces']['space' + i]['status'] + "</li>";
-                    if (data['McCann']['parkingSpaces']['space' + i]['reservedDate'] == null) {
+                    htmlString += "<ul><li>Location: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['location'] + "</li>";
+                    htmlString += "<li>Handicap Parking: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['handicap'] + "</li>";
+                    htmlString += "<li>Status: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['status'] + "</li>";
+                    if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['reservedDate'] == null) {
                         htmlString += "<li>Date Reserved: N/A</li>";
                     } else {
-                        htmlString += "<li>Date Reserved: " + data['McCann']['parkingSpaces']['space' + i]['reservedDate'] + "</li>";
+                        htmlString += "<li>Date Reserved: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['reservedDate'] + "</li>";
                     }
-                    if (data['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] == null) {
+                    if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] == null) {
                         htmlString += "<li>Time Reserved: N/A</li></ul>";
                     } else {
-                        htmlString += "<li>Time Reserved: " + data['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] + "</li></ul>";
+                        htmlString += "<li>Time Reserved: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['timeReservedFor'] + "</li></ul>";
                     }
                 }
                 document.getElementById('studentParking').innerHTML += htmlString;
+
+                //Number of Parking Spaces (Parking Info)
+                count = 1;
+                let keys = Object.keys(data['parkingLots']);
+                for (let i in keys){
+                    htmlString = "";
+                    let thiskey = keys[i];
+                    htmlString += "<u>Total Parking Spaces</u>: " + data['parkingLots'][thiskey]['totalSpaces'];
+
+                    document.getElementById('parkingSpaces' + count).innerHTML += htmlString;
+                    count += 1;
+                }
+
+                //Free spaces
+                countFaculty = 0;
+                countStudent = 0;
+                for (let i = 1; i < 13; i++) {
+                    htmlString = "";
+                    htmlString += "<p>Space " + i;
+                    htmlString += "<ul><li>Location: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['location'] + "</li>";
+                    htmlString += "<li>Handicap Parking: " + data['parkingLots']['McCann']['parkingSpaces']['space' + i]['handicap'] + "</li></ul>";
+
+                    if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['type'] == 'Faculty/Staff'
+                        && data['parkingLots']['McCann']['parkingSpaces']['space' + i]['status'] == 'Available'
+                    ) {
+                        console.log('i = '+ i);
+                        countFaculty += 1;
+                        console.log('Faculty: ' + countFaculty);
+                        document.getElementById('freeFacultyParking' + countFaculty).innerHTML += htmlString;
+                    } else if (data['parkingLots']['McCann']['parkingSpaces']['space' + i]['type'] == 'Student'
+                        && data['parkingLots']['McCann']['parkingSpaces']['space' + i]['status'] == 'Available'
+                    ) {
+                        console.log('i = '+ i);
+                        countStudent += 1;
+                        console.log('Student: ' + countStudent);
+                        document.getElementById('freeStudentParking' + countStudent).innerHTML += htmlString;
+                    }
+                }
             })()
         </script>
 
